@@ -3,13 +3,13 @@ This project is part of a Kaggle Playground competition focused on predicting ir
 
 # 🌱 Irrigation Need Prediction using Deep Neural Network 
 
-## 📌 Description
+## Description
 
 This project is part of a Kaggle Playground competition focused on predicting irrigation needs using environmental and soil data.
 
 ---
 
-## 📖 Overview
+## Overview
 
 The objective of this project is to build a robust deep neural network that predicts irrigation requirements (Low, Medium, High) based on environmental conditions, soil characteristics, and agricultural factors.
 
@@ -17,7 +17,7 @@ This helps improve water efficiency and supports smart agriculture systems.
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Traditional irrigation methods rely on fixed schedules, which often result in:
 
@@ -29,7 +29,7 @@ This project addresses these challenges use data-driven predictions.
 
 ---
 
-## 📊 Dataset Features
+## Dataset Features
 
 The dataset contains a mix of categorical and numerical features, including:
 
@@ -39,13 +39,13 @@ The dataset contains a mix of categorical and numerical features, including:
 * Wind_Speed_kmh, Sunlight_Hours
 * Irrigation_Type, Water_Source, Region
 
-🎯 Target Variable:
+ Target Variable:
 
 * Irrigation_Need → (Low, Medium, High)
 
 ---
 
-## 🧠 Approach
+##  Approach
 
 ### 🔹 Data Preprocessing
 
@@ -128,7 +128,7 @@ A Deep Neural Network built use TensorFlow/Keras:
 
 ---
 
-## 📈 Results
+## Results
 
 * Model trained using 5-Fold Cross Validation
 * Achieved stable performance across folds
@@ -136,9 +136,9 @@ A Deep Neural Network built use TensorFlow/Keras:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
-* Python 🐍
+* Python 
 * Pandas & NumPy
 * Scikit-learn
 * TensorFlow / Keras
@@ -158,7 +158,7 @@ Irrigation-Need-Prediction/
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ```bash
 git clone https://github.com/your-username/Irrigation-Need-Prediction.git
@@ -174,7 +174,7 @@ notebook.ipynb
 
 ---
 
-## 📤 Submission
+##  Submission
 
 * Predictions generated using K-Fold ensemble
 * Output file:
@@ -185,7 +185,7 @@ submission_kfold.csv
 
 ---
 
-## 📬 Author
+##  Author
 
 **Tasneem Faisal**
 Data Scientist | AI Engineer
